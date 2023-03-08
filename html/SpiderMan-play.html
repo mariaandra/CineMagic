@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>SpiderMan NO WAY HOME</title>
+    <link rel="stylesheet" href="../css/play-page.css">
+    <link rel = "icon" href = "../Movie icons/logo.png" type = "image/x-icon">
+    <!--ICONS-->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+  <!--SWIPER-->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+</head>
+
+<body>
+    <header>
+        <a href="../php/mainLogged.php" class="logo">
+            <i class='bx bx-movie-play'></i>CineMagic
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="../php/mainLogged.php" class="home-active">Home</a></li>
+        </ul>
+    </header>
+
+    <!--Play Movie Container-->
+    <div class="play-container conatiner">
+        <!--Play Image-->
+        <img src="../Movie icons/play/b.jpg" alt="" class="play-img">
+        
+        <!--Play Text-->
+        <div class="play-text">
+            <!--Rating-->
+            <h2 id="spidertitle">SPIDER-MAN <br>No Way Home</h2>
+            <div class="tags">
+                <span>148min | Action/Adventure</span>
+            </div>
+        </div>
+        <a href="#" class="watch-btn">
+            <i class='bx bx-right-arrow play-movie' ></i>
+        </a>
+        <!--Video Container-->
+        <div class="video-container">
+            <!--Video Box-->
+            <div class="video-box">
+                <video id="myvideo" src="../Movie icons/play/SPIDER-MAN NO WAY HOME Trailer.mp4" controls></video>
+                <!--Close Video-->/T
+                <i class='bx bxs-x-circle close-video'></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-movie container">
+        <div class="about">
+            <h3>Favourite</h3>
+            <div class="favBtn">
+                <Button id="favbtn1" class="favbtn">
+                    <i class='bx bx-heart'></i>
+                </Button>
+                <Button id="favbtn2" class="favbtn">
+                    <i class='bx bxs-heart' ></i>
+                </Button>
+            </div>
+            <h3>Rating</h3>
+            <i class='bx bxs-star' id="star"> <p id="startRate"> 6.3/10</p></i>
+        </div>
+            <br>
+            <h3>Storyline</h3>
+            <p>
+                With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.            
+             </p>
+            <!--Movie Cast-->
+            <h2 class="cast-heading">Movie Cast</h2>
+            <div class="cast">
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast11.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Tom Holland</span>
+                    <br>
+                    <p>as Peter Parker</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast12.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Zendaya</span>
+                    <br>
+                    <p>as MJ</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast13.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Benedict Cumberbatch</span>
+                    <br>
+                    <p>as Doctor Strange</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast14.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Jacob Batalon</span>
+                    <br>
+                    <p>as Ned Leeds</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast15.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Jon Favreau</span>
+                    <br>
+                    <p>as Happy Hogan</p>
+                </div>
+            </div>
+    </div>
+
+    
+
+    <!--SWIPER -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>    
+    <script src="../js/SpiderMan-play.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
+</body>
+</html>

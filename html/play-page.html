@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>The King's Man 3</title>
+    <link rel="stylesheet" href="../css/play-page.css">
+    <link rel = "icon" href = "../Movie icons/logo.png" type = "image/x-icon">
+    <!--ICONS-->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+  <!--SWIPER-->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+</head>
+
+<body>
+    <header>
+        <a href="../php/mainLogged.php" class="logo">
+            <i class='bx bx-movie-play'></i>CineMagic
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="../php/mainLogged.php" class="home-active">Home</a></li>
+            <!-- <li><a href="CinemaZone.html">Cinema Zone</a></li>                    -->
+        </ul>
+    </header>
+
+    <!--Play Movie Container-->
+    <div class="play-container conatiner">
+        <!--Play Image-->
+        <img src="../Movie icons/play/a.jpg" alt="" class="play-img">
+        
+        <!--Play Text-->
+        <div class="play-text">
+            <!--Rating-->
+            <h2 id="kingtitle">The King's Man 3</h2>
+            <div class="tags">
+                <span>121min | Action/Adventure</span>
+            </div>
+
+            <!--Tags-->
+            <!-- <div class="tags">
+
+            </div> -->
+            <!--Trailer Button-->
+        </div>
+        <!--Play Btn-->
+        <!-- <i class='bx bx-right-arrow play-movie' ></i> -->
+        <a href="#" class="watch-btn">
+            <i class='bx bx-right-arrow play-movie' ></i>
+        </a>
+        <!--Video Container-->
+        <div class="video-container">
+            <!--Video Box-->
+            <div class="video-box">
+                <video id="myvideo" src="../Movie icons/play/The King's Man.mp4" controls></video>
+                <!--Close Video-->
+                <i class='bx bxs-x-circle close-video'></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-movie container">
+        <div class="about">
+            <h3>Favourite</h3>
+            <div class="favBtn">
+                <Button id="favbtn1" class="favbtn">
+                    <i class='bx bx-heart'></i>
+                </Button>
+                <Button id="favbtn2" class="favbtn">
+                    <i class='bx bxs-heart' ></i>
+                </Button>
+            </div>
+            <h3>Rating</h3>
+            <i class='bx bxs-star' id="star"> <p id="startRate"> 6.3/10</p></i>
+        </div>
+            <br>
+            <h3>Storyline</h3>
+            <p>
+                In the early years of the 20th century, the Kingsman agency is formed to stand against a cabal plotting a war to wipe out millions.
+            </p>
+            <!--Movie Cast-->
+            <h2 class="cast-heading">Movie Cast</h2>
+            <div class="cast">
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast1.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Ralph Fiennes</span>
+                    <br>
+                    <p>as Orlando Oxford</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast2.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Gemma Arterton</span>
+                    <br>
+                    <p>as Polly</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast3.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Rhys Ifans</span>
+                    <br>
+                    <p>as Grigori Raputin</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast4.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Harris Dickinson</span>
+                    <br>
+                    <p>as Conrad Oxford</p>
+                </div>
+                <div class="cast-box">
+                    <img src="../Movie icons/Cast/cast5.jpg" alt="" class="cast-img">
+                    <br>
+                    <span class="cast-title">Djimon Hounsou</span>
+                    <br>
+                    <p>as Shola</p>
+                </div>
+            </div>
+    </div>
+
+    <!--SWIPER -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>    
+    <script src="../js/play-page.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
+</body>
+</html>
