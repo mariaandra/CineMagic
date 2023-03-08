@@ -1,0 +1,9 @@
+function view_record(){
+	$.ajax(
+{
+	url:'view.php',
+	method:'post',
+	success:function(){
+	data=$.parseJSON(data);
+}
+})
